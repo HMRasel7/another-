@@ -1,0 +1,292 @@
+/*----------Google FOnt-------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* ---------------default css----------------------- */
+body{
+    font-family: 'Open Sans', Arial, sans-serif !important;
+          /* background-color: #cccccc; */
+}
+html{
+          scroll-behavior: smooth;
+          font-size: 62.5%;
+}
+.ptb{
+          padding: 10rem 0;
+}
+a{
+          text-decoration: none;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 119rem; !important;
+}
+/* ---------------default css End----------------------- */
+/*-----------------------Navbar css start--------------------*/
+.header-img {
+    padding-top: 35rem;
+    background: url(./../img/simple-house-01.jpg);
+    background-size:cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.left-logo {
+    margin-bottom: 2rem;
+}
+.left-logo-text {
+    margin-left: 1.1rem;
+}
+.left-logo-text h2 {
+    color: #fff;
+    font-size: 3.4rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.left-logo-text p {
+    font-size: 1.8rem;
+    font-weight: 200 !important;
+    color: #fff;
+}
+.right-menu{}
+.right-menu ul{}
+.right-menu ul li a {
+    display: inline-block !important;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    position: relative;
+}
+.right-menu ul li {
+    display: inline-block;
+    padding: 0 1.9rem;
+}
+.right-menu ul {
+    margin-bottom: 0 !important;
+}
+.active-link:active, .active-link:hover, .active-link.active{
+    border-bottom: .1rem solid #fff;
+}
+
+/*-----------------------Navbar css End---------------------*/
+/*-----------------------WELCOME SECTION START---------------------*/
+.welcome-text h1 {
+    font-weight:600;
+}
+.welcome-text p {
+    line-height: 3.3rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #4c3232;
+}
+/*-----------------------WELCOME SECTION END---------------------*/
+/*-----------------------ITEM SHOW SECTION START---------------------*/
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #2f956d;
+    background-color: #fff;
+    font-size: 20px;
+    border: 1px solid #2f956d;
+    padding: 6px 26px;
+} */
+.welcome-section{
+    
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-link:hover{
+    color: #fff !important;
+    background-color: #2f956d !important;
+}
+.nav-link{
+    color: #2f956d !important;
+    background-color: #fff !important;
+    font-size: 2rem;
+    border: .1rem solid #2f956d !important;
+    padding: .6rem 2.6rem;
+    margin-right: 1.5rem;
+    border-radius: 0rem !important;
+}
+.bottom-content H2, .all-color {
+    display: inline-block;
+    color: #1a6692;
+    font-size: 2.3rem;
+    margin-bottom: 1.6rem;
+}
+.bottom-content p {
+    font-size: 1.6rem;
+    color: #3e323f;
+}
+.bottom-content span {
+    display: inline-block;
+    color: #2f956d;
+    font-size: 2.1rem;
+    margin-top: 1.5rem;
+}
+/*-----------------------ITEM SHOW SECTION END---------------------*/
+.team-right-content h1{}
+.team-right-content p {
+    color: #3e323f;
+    line-height: 3.5rem;
+    font-size: 1.9rem;
+}
+.team-btn  .btn {
+    margin-top: 4.9rem;
+    font-size: 1.7rem;
+    padding: .9rem 3.1rem;
+    margin-right: 4.1rem;
+}
+footer h4 {
+    font-size: 1.7rem;
+    color: #3e323f;
+}
+footer a{
+    color: #3e323f !important;
+}
+/*---------------ABOUT SECTION START---------------------*/
+/*---------------ABOUT SECTION START---------------------*/
+/*------WELCOME SECTION--------*/
+.welcome-section{
+    padding: 7rem;
+}
+/*---------------ABOUT SECTION START---------------------*/
+/*---------------about-team-section START---------------------*/
+.about-team-section .container, .Pad-con{
+    padding: 0 4rem;
+}
+.about-right-content{}
+.about-right-content h1{
+    color: #0099cc;
+    display: block;
+}
+.about-right-content h4 {
+    color: #dc6c99;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: block;
+}
+.about-right-content p {
+    width: 30rem;
+    line-height: 3.3rem;
+    margin: 2rem 0;
+    font-size: 1.6rem;
+}
+.about-right-menu ul li a{}
+.about-right-menu ul li span {
+    font-size: 2.1rem;
+    color: #626364;
+    padding: .6rem .9rem ;
+    transition: .4s;
+}
+.about-right-menu ul li span:hover{
+    background-color:#626364;
+    font-weight: 600;
+    color: #fff;
+    border-radius:.5rem;
+}
+/*---------------ABOUT SECTION START---------------------*/
+/*---------------ABOUT fixed START---------------------*/
+/* .fixed-img{
+    background: url(./../img/about-05.jpg);
+}
+.f-img{
+    position: relative;
+} */
+.history-content p {
+    font-size: 1.8rem;
+    color: #626364;
+}
+.history-content span {
+    margin: 1.8rem 0;
+    font-size: 1.8rem;
+    display: inline-block;
+    color: #626364;
+}
+.history-content h1 {
+    color: #318bd1;
+    font-weight: 600;
+}
+.img-div {
+    background-position: center;
+    height: 28.3rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/about-05.jpg);
+    background-repeat: no-repeat;
+}
+.testimonial-item span {
+    display: inline-block;
+    font-size: 6.6rem;
+    margin: 2.4rem 0;
+    color: #a0a2a3;
+}
+.testimonial-item p {
+    font-size: 1.6rem;
+    width: 85%;
+    margin: auto;
+    color: #626364;
+
+}
+.testimonial-item .testi-btn a {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: .7rem 3.4rem;
+}
+.testimonial-item .testi-btn {
+    margin-top: 4rem;
+}
+/*---------------ABOUT fixed end---------------------*/
+/*---------------CONTACT SECTION START---------------------*/
+.card-header {
+    padding: 1.9rem;
+    background: transparent;
+}
+.card-header a {
+    color: #000;
+    font-size: 2rem;
+}
+.card-header a:active, .card-header a.click, .card-header a:hover{
+    color: #318bd1;
+}
+.card-body {
+    line-height: 3.7rem;
+    font-size: 1.8rem;
+    border: none !important;
+    flex: 1 1 auto;
+    padding: 2rem 4rem;
+}
+.form-control {
+    border: 0;
+    border-bottom: .1rem solid #ddd;
+    width: 75% !important;
+    font-size: 1.5rem;
+    outline: none;
+}
+.contact-right-content h1{
+    color: #1b9b5b;
+}
+.contact-right-content p {
+    width: 58%;
+    font-size: 1.7rem;
+    padding: 2rem 0;
+}
+.inner-left span {
+    font-size: 2.8rem;
+    margin-right: 1.4rem;
+    display: inline-block;
+    color: #1b9b5b;
+}
+.icon-message span {
+    font-size: 2.3rem;
+    margin-right: 1.4rem;
+    display: inline-block;
+    color: #1b9b5b;
+}
+.contact-right-content a {
+    font-size: 1.8rem;
+    color: #aaa;
+}
+.contact-right-content li:hover{
+   background-color: #626364;
+   color: #fff;
+}
+.contact-right-content li {
+    display: inline-block;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding: .4rem 1rem;
+}
+/*---------------CONTACT SECTION END--------------------*/
